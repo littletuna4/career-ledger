@@ -1,0 +1,10 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+- Consider the details, and structure specified in [README.md](mdc:README.md). This is gospel. Do not modify it unless permitted/requested to. This provides the structure and context about the repo - but should has no7 content.
+- Make sure that all sections are thoroughly integrated (double up isn't desireable, but cross referencing absolutely is)
+- Use links to thoroughly connect the repository together internally.
+
+- Use links to thoroughly connect the repo to any external material.
