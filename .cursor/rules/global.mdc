@@ -3,8 +3,175 @@ description:
 globs: 
 alwaysApply: true
 ---
-- Consider the details, and structure specified in [README.md](mdc:README.md). This is gospel. Do not modify it unless permitted/requested to. This provides the structure and context about the repo - but should has no7 content.
-- Make sure that all sections are thoroughly integrated (double up isn't desireable, but cross referencing absolutely is)
-- Use links to thoroughly connect the repository together internally.
+# Career Ledger - Structure and Content Guidelines
+ment provides the complete specifications for maintaining and contributing to the Career Ledger repository. These guidelines ensure consistency and comprehensiveness across all entries.
 
-- Use links to thoroughly connect the repo to any external material.
+## File Structure Specification
+
+The repository follows this detailed structure:
+
+```text
+career-ledger/
+│
+├── README.md                     # Overview and introduction - STRICTLY META INFO ABOUT THE REPO.
+│
+├── jobs/                         # Main directory for employment-related content
+│   ├── [employer]/               # Folder for each employer
+│   │   ├── index.md              # Overview of my time at this employer
+│   │   ├── [project].md          # Direct project files (if simple or few)
+│   │   └── projects/             # Subfolder for detailed project-specific entries
+│   │       ├── [project]/        # Folder for a major project (optional)
+│   │       │   └── project.md    # Canonical project file
+│   │       └── [project].md      # Or just markdown file if no folder is needed
+│   │
+│   └── [employer].md             # (Optional) Single-page summary for the employer
+|
+├── projects/                     # Independent or collaborative standalone projects
+│   ├── [project]/                # Folder for each project
+│   │   ├── index.md              # Overview, motivation, and outcomes
+│   │   ├── build.md              # Technical implementation details
+│   │   └── reflections.md        # Lessons learned, retrospectives
+│   └── [project].md              # Or single-file entries for simpler efforts
+│
+├── skills/                       # Broader skill development and reflections
+│   ├── index.md                  # Overview of skills and their evolution
+│   ├── timeline.md               # Chronological record of skill growth
+│   ├── reflections.md            # Key lessons, mindset shifts, and patterns
+│   └── recognitions.md           # Awards, promotions, and public acknowledgments
+│
+└── education/                    # Academic history and related achievements
+    ├── index.md                  # Summary of educational background
+    ├── [institution]/            # Folder for each institution (e.g. university, training org)
+    │   ├── index.md              # Overview of program(s), degrees, and context
+    │   ├── courses.md            # Notable courses taken
+    │   └── achievements.md       # Academic honors, scholarships, or major works
+    └── certifications.md         # Standalone certifications or short courses
+```
+
+## Content Guidelines
+
+### General Guidelines
+
+- Each entry should be comprehensive and self-contained while referencing related content
+- The tone should be very dry, technical, short in style, long in content. All implicit information and common knowledge should be avoided. Be robotically informative.
+- Use markdown formatting consistently across all documents
+- Include dates, durations, and specific contexts where applicable
+- Make liberal use of internal cross-linking between related documents
+- Link to external resources when appropriate (portfolios, GitHub repos, publications, etc.)
+- Ensure all content is professional and appropriately detailed
+- Files and folders should all be in snake-case
+
+### Section-Specific Guidelines
+
+#### Jobs Section
+
+- **index.md** in each employer folder should contain:
+  - Employment duration
+  - Official job titles and role evolutions
+  - Department/team placement
+  - High-level responsibilities
+  - Key achievements summary
+  - Links to detailed project entries
+
+- **[project].md** files should include:
+  - Project overview and business context
+  - Your specific responsibilities and contributions
+  - Technologies, methodologies, and frameworks used
+  - Outcomes and impact (quantified when possible)
+  - Challenges overcome
+  - Key learnings
+
+#### Projects Section
+
+- **index.md** for project folders should provide:
+  - Project scope and objectives
+  - Your motivation for undertaking it
+  - Timeline and development process
+  - Results and reception
+  - Links to demos, repositories, or live instances if available
+
+#### Skills Section
+
+- Group related skills together in meaningful categories
+- Document skill progression over time
+- Connect skills to specific projects or roles where they were applied or developed
+- Include both technical and soft skills
+
+#### Education Section
+
+- Document formal degrees, certifications, and significant training programs
+- Include relevant coursework, major projects, and academic achievements
+- Note particularly influential instructors or mentors
+
+## Document Structure Templates
+
+### Project File Template
+
+```markdown
+# Project Name
+
+## Summary
+Concise overview of what this project was and why it mattered.
+
+## Context
+Where and when it happened, and what the setting was.
+
+## Responsibilities
+What I personally did — technical, strategic, or interpersonal.
+
+## Outcomes
+Results, metrics, and impact.
+
+## Tools & Skills
+Technologies, methodologies, or soft skills applied.
+
+## Reflections
+What I learned and would do differently.
+```
+
+### Employer Index Template
+
+```markdown
+# [Employer Name]
+
+**Period**: [Start Date] - [End Date]
+**Location**: [City, Country/Remote]
+**Industry**: [Industry]
+
+## Roles
+- [Title 1]: [Date Range]
+- [Title 2]: [Date Range]
+
+## Overview
+Brief description of the company and your general experience there.
+
+## Key Responsibilities
+Summary of your main duties and areas of focus.
+
+## Notable Projects
+- [Project 1](mdc:projects/project1.md): Brief description
+- [Project 2](mdc:projects/project2.md): Brief description
+
+## Skills Applied/Developed
+- [Skill 1]
+- [Skill 2]
+
+## Key Achievements
+- Achievement 1
+- Achievement 2
+```
+
+## Maintenance Guidelines
+
+- When making file changes, always check for cross references and keep them up to date.
+- Add new entries promptly after completing projects or changing roles
+- Maintain consistent formatting throughout the repository
+- Create index files for new sections only as they grow.
+- Ensure all links remain functional
+
+## Integration Guidelines
+
+- Cross-reference related content across different sections. (Use links)
+- Create connections between skills and their practical applications.
+- Link projects to relevant employer contexts when applicable
+- Establish clear pathways between educational experiences and resulting career opportunities
