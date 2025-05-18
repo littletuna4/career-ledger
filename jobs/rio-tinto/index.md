@@ -5,7 +5,9 @@ _August 2023 – Present_
 
 ## Overview
 
-- Delivered technical training and process automation tools.
-- Developed digital twin and simulation models.
-- Supported operational readiness and process optimization.
-- Engaged in data analysis, AI-driven insights, and technical documentation.
+- Owned the Development of refinery digital twin and simulation models.
+- Operational data analysis, including the quantification of production loss based on historian data, and unstructured shift logs using llms.
+- Commissioning and operational readiness tasks for a continuous centrifuge installation. 
+- Preparation and delivery of technical training material.
+- Model driven business case analyses.
+- Rheological Laboratory work for process development.
