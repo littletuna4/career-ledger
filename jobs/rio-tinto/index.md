@@ -12,3 +12,11 @@ _August 2023 – Present_
 - Preparation and delivery of technical training material.
 - Model driven business case analyses.
 - Rheological Laboratory work for process development.
+
+Minor:
+- Developed a fourier model of local tides.
+- Participated in the following technical training:
+  - Clarification IKB
+  - Precipitation IKB
+  - Digestion IKB
+  - Pump Training & Advanced Pump training

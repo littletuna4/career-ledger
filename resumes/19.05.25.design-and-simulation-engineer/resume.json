@@ -1,0 +1,209 @@
+{
+    "basics": {
+        "name": "Anthony Cerqui",
+        "label": "Programmer",
+        "image": "",
+        "email": "adpcerqui@gmail.com",
+        "phone": "+61457271181",
+        "url": "https://tony-cerqui.webnode.com/",
+        "summary": "Engineer with experience in process modelling, simulation, and data analysis. Skilled in Python-based development, operational data analysis, and technical problem-solving. Interested in clean energy and technical innovation.",
+        "location": {
+            "city": "Brisbane",
+            "countryCode": "AU",
+            "region": "Queensland"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "anthonycerqui",
+                "url": "https://www.linkedin.com/in/anthonycerqui/"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Rio Tinto",
+            "position": "Graduate & Undergraduate Process Engineer",
+            "url": "https://www.riotinto.com/",
+            "startDate": "2023-08-01",
+            "endDate": "",
+            "summary": "Developed refinery process models and simulation tools. Analysed operational data, supported commissioning, and contributed to technical training and laboratory process development.",
+            "highlights": [
+                "Developed refinery process models and simulation tools",
+                "Analysed operational data and quantified production loss",
+                "Developed tailings management facility process model",
+                "Supported commissioning and operational readiness for centrifuge installation",
+                "Prepared and delivered technical training material",
+                "Conducted model-driven business case analyses and laboratory work"
+            ]
+        },
+        {
+            "name": "B&T Digital",
+            "position": "Managing Partner",
+            "url": "https://www.btdigital.com.au/",
+            "startDate": "2022-10-01",
+            "endDate": "",
+            "summary": "Co-founded and co-manage a consultancy focused on system support, technical infrastructure, and workflow automation. Deliver custom development and hosting solutions for clients with engineering and IT requirements.",
+            "highlights": [
+                "Established and managed consultancy operations",
+                "Delivered workflow automation and technical infrastructure projects",
+                "Provided custom development and hosting for engineering clients"
+            ]
+        },
+        {
+            "name": "Argon & Co",
+            "position": "Asset Advisory Engineering Intern",
+            "url": "https://www.argonandco.com/",
+            "startDate": "2021-11-01",
+            "endDate": "2022-10-01",
+            "summary": "Delivered site audits, reconciled operational data with financial records, and created CAD drawings from 3D scans. Worked independently in both technical and financial capacities.",
+            "highlights": [
+                "Performed site audits and operational/financial data reconciliation",
+                "Produced site walkthroughs and CAD drawings using Leica BLK 360 and AutoCAD",
+                "Conducted independent technical and financial analysis"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "The University of Queensland",
+            "url": "https://uq.edu.au/",
+            "area": "Chemical Engineering, Business Information Systems",
+            "studyType": "Bachelor of Engineering (Honours), Bachelor of Business Management",
+            "startDate": "2019-01-01",
+            "endDate": "2024-12-01",
+            "score": "",
+            "courses": [
+                "Process Modelling & Simulation",
+                "Data Analysis with Python",
+                "Control Theory",
+                "Optimisation Techniques"
+            ]
+        },
+        {
+            "institution": "Brisbane Boys' College",
+            "url": "https://www.bbc.qld.edu.au/",
+            "area": "STEM, Design, Technology",
+            "studyType": "Queensland Certificate of Education",
+            "startDate": "2013-01-01",
+            "endDate": "2017-12-01",
+            "score": "OP 3",
+            "courses": [
+                "Mathematics B & C",
+                "Graphics (CAD, industrial design)",
+                "Technology Studies",
+                "Chemistry"
+            ]
+        }
+    ],
+    "awards": [],
+    "certificates": [
+        {
+            "name": "Microsoft Certified: Azure Fundamentals",
+            "date": "",
+            "issuer": "Microsoft",
+            "url": ""
+        }
+    ],
+    "publications": [],
+    "skills": [
+        {
+            "name": "Process Modelling & Simulation",
+            "level": "Advanced",
+            "keywords": [
+                "Process Simulation",
+                "Steady-State",
+                "Dynamic Modelling"
+            ]
+        },
+        {
+            "name": "Python Programming",
+            "level": "Advanced",
+            "keywords": [
+                "Data Analysis",
+                "Automation",
+                "Flask",
+                "Pandas",
+                "Numpy"
+            ]
+        },
+        {
+            "name": "Cloud & DevOps",
+            "level": "Intermediate",
+            "keywords": [
+                "Docker",
+                "GitHub Actions",
+                "Serverless Architecture"
+            ]
+        },
+        {
+            "name": "Optimisation & Control Theory",
+            "level": "Intermediate",
+            "keywords": [
+                "Control Systems",
+                "Optimisation Algorithms"
+            ]
+        },
+        {
+            "name": "Data Analysis & Visualisation",
+            "level": "Advanced",
+            "keywords": [
+                "Large Datasets",
+                "Dashboards",
+                "Performance Insights",
+                "Rapid Exploratory Data Analysis"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Native speaker"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Clean Energy Innovation",
+            "keywords": [
+                "Sustainability",
+                "Energy Storage",
+                "Technology Commercialisation"
+            ]
+        }
+    ],
+    "references": [],
+    "projects": [
+        {
+            "name": "BOM Radar Rainfall Modelling",
+            "startDate": "2023-01-01",
+            "endDate": "2023-12-01",
+            "description": "Pipeline for scraping, processing, and storing spatial rainfall data from the Australian Bureau of Meteorology. Enabled estimation of water levels and flood risk using Python and open-source tools.",
+            "highlights": [
+                "Designed and implemented data pipeline for spatial rainfall modelling",
+                "Developed image processing logic to convert radar images to rainfall rates",
+                "Containerized and deployed for serverless operation",
+                "Automated scheduling and CI/CD with GitHub Actions and cron-job.org",
+                "Built minimal Flask frontend for monitoring"
+            ],
+            "url": "https://tonycerqui.blogspot.com/2025/04/bom-scraping-on-gcp.html"
+        },
+        {
+            "name": "Well Tested",
+            "startDate": "",
+            "endDate": "",
+            "description": "Web-based pass/fail application for the gas industry, digitizing and streamlining well compliance validation. Replaced manual processes, improving accuracy, traceability, and efficiency in compliance reporting. Collaborative venture between B&T Digital and an industry partner.",
+            "highlights": [
+                "Co-owned venture (33% via B&T Digital)",
+                "Defined product scope, features, and business direction",
+                "Acted as intermediary between technical and industry stakeholders",
+                "Structured profit-sharing and governance model",
+                "Oversaw hosting, support, and deployment strategies",
+                "Deployed lightweight web-based compliance validation tool",
+                "Digitized recordkeeping and data retrieval for well assessments",
+                "Enhanced accuracy and traceability in compliance reporting",
+                "Improved operational efficiency for industry users"
+            ],
+            "url": ""
+        }
+    ]
+}

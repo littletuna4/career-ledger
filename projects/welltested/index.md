@@ -42,6 +42,6 @@ Well Tested is a web-based pass/fail application developed for the gas industry 
 - Early definition of governance and profit-sharing structures reduced later friction
 - Lightweight, focused feature set enabled rapid deployment and adoption
 
-[Back to Projects Index](mdc:projects/index.md)
-[Related Skills](mdc:skills/index.md)
-[Employer: B&T Digital](mdc:jobs/bt-digital/index.md)
+[Back to Projects Index](../../projects/index.md)
+[Related Skills](../../skills/index.md)
+[Employer: B&T Digital](../../jobs/bt-digital/index.md)
