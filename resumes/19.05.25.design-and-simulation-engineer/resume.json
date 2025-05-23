@@ -1,12 +1,13 @@
 {
     "basics": {
         "name": "Anthony Cerqui",
-        "label": "Programmer",
+        "label": "Process Engineer, Software Developer, Technical Consultant",
         "image": "",
         "email": "adpcerqui@gmail.com",
         "phone": "+61457271181",
         "url": "https://tony-cerqui.webnode.com/",
-        "summary": "Engineer with experience in process modelling, simulation, and data analysis. Skilled in Python-based development, operational data analysis, and technical problem-solving. Interested in clean energy and technical innovation.",
+        "website": "https://tony-cerqui.webnode.com/",
+        "summary": "Engineer with unique breadth and depth of experience in process modelling, simulation, and data analysis. Highly skilled in Python-based development, operational data analysis, and technical problem-solving. Interested in clean energy and technical innovation. Thrives in small team environments solving complex problems.",
         "location": {
             "city": "Brisbane",
             "countryCode": "AU",
@@ -17,33 +18,44 @@
                 "network": "LinkedIn",
                 "username": "anthonycerqui",
                 "url": "https://www.linkedin.com/in/anthonycerqui/"
+            },
+            {
+                "network": "GitHub",
+                "username": "littletuna4",
+                "url": "https://github.com/littletuna4"
             }
         ]
     },
     "work": [
         {
             "name": "Rio Tinto",
-            "position": "Graduate & Undergraduate Process Engineer",
+            "position": "Several Process Engineering Roles",
+            "company": "Rio Tinto",
             "url": "https://www.riotinto.com/",
             "startDate": "2023-08-01",
             "endDate": "",
             "summary": "Developed refinery process models and simulation tools. Analysed operational data, supported commissioning, and contributed to technical training and laboratory process development.",
             "highlights": [
-                "Developed refinery process models and simulation tools",
-                "Analysed operational data and quantified production loss",
-                "Developed tailings management facility process model",
-                "Supported commissioning and operational readiness for centrifuge installation",
-                "Prepared and delivered technical training material",
-                "Conducted model-driven business case analyses and laboratory work"
+                "Owned Refinery Digital twin project.",
+                "Developed Multiprocessing and Parallel Computing tools to run stochastic simulations.",
+                "Developed refinery process models and simulation tools.",
+                "Developed and Published 2x Python Packages.",
+                "Analysed operational data and quantified production loss.",
+                "Developed tailings management facility process model.",
+                "Supported commissioning and operational readiness for centrifuge installation.",
+                "Prepared and delivered technical training material.",
+                "Conducted model-driven business case analyses and laboratory work.",
+                "Developed Sealevel prediction tool using fourier transform."
             ]
         },
         {
             "name": "B&T Digital",
             "position": "Managing Partner",
+            "company": "B&T Digital",
             "url": "https://www.btdigital.com.au/",
             "startDate": "2022-10-01",
             "endDate": "",
-            "summary": "Co-founded and co-manage a consultancy focused on system support, technical infrastructure, and workflow automation. Deliver custom development and hosting solutions for clients with engineering and IT requirements.",
+            "summary": "Co-founded and co-manage a consultancy focused on engineering application development, technical infrastructure, and workflow automation. Deliver custom development and hosting solutions for clients with engineering and IT requirements.",
             "highlights": [
                 "Established and managed consultancy operations",
                 "Delivered workflow automation and technical infrastructure projects",
@@ -52,6 +64,7 @@
         },
         {
             "name": "Argon & Co",
+            "company": "Argon & Co",
             "position": "Asset Advisory Engineering Intern",
             "url": "https://www.argonandco.com/",
             "startDate": "2021-11-01",
@@ -79,21 +92,6 @@
                 "Control Theory",
                 "Optimisation Techniques"
             ]
-        },
-        {
-            "institution": "Brisbane Boys' College",
-            "url": "https://www.bbc.qld.edu.au/",
-            "area": "STEM, Design, Technology",
-            "studyType": "Queensland Certificate of Education",
-            "startDate": "2013-01-01",
-            "endDate": "2017-12-01",
-            "score": "OP 3",
-            "courses": [
-                "Mathematics B & C",
-                "Graphics (CAD, industrial design)",
-                "Technology Studies",
-                "Chemistry"
-            ]
         }
     ],
     "awards": [],
@@ -102,7 +100,43 @@
             "name": "Microsoft Certified: Azure Fundamentals",
             "date": "",
             "issuer": "Microsoft",
-            "url": ""
+            "url": "https://www.credly.com/badges/11114ac2-9bcb-4491-ae46-b87a15d75af8/public_url"
+        },
+        {
+            "name": "Data Analysis with Python",
+            "date": "",
+            "issuer": "freeCodeCamp",
+            "url": "https://freecodecamp.org/certification/littletuna4/data-analysis-with-python-v7"
+        },
+        {
+            "name": "Scientific Computing with Python",
+            "date": "",
+            "issuer": "freeCodeCamp",
+            "url": "https://freecodecamp.org/certification/littletuna4/scientific-computing-with-python-v7"
+        },
+        {
+            "name": "Visual Basic For Excel - Beginners Guide",
+            "date": "",
+            "issuer": "EDUCBA",
+            "url": "https://www.educba.com/certificate/?c=ZYOI42NQA"
+        },
+        {
+            "name": "Project Management: PMBOK7",
+            "date": "",
+            "issuer": "",
+            "url": "https://www.dropbox.com/s/t8qtgjkno7js9w9/Project%20Management%20Updated%20PMBOK7_Certificate%20of%20Achievement.pdf?dl=0"
+        },
+        {
+            "name": "Pumping Fundamentals",
+            "date": "",
+            "issuer": "",
+            "url": "https://www.linkedin.com/in/anthonycerqui/details/certifications/1745229020805/single-media-viewer/?profileId=ACoAACzPeuoBO_VIDxNprtNYkd6F1uh8fJ6Wv8s"
+        },
+        {
+            "name": "Advanced Pumping",
+            "date": "",
+            "issuer": "",
+            "url": "https://www.linkedin.com/in/anthonycerqui/details/certifications/1745229145238/single-media-viewer/?profileId=ACoAACzPeuoBO_VIDxNprtNYkd6F1uh8fJ6Wv8s"
         }
     ],
     "publications": [],
@@ -133,6 +167,9 @@
             "keywords": [
                 "Docker",
                 "GitHub Actions",
+                "AWS",
+                "Azure",
+                "GCP",
                 "Serverless Architecture"
             ]
         },
@@ -183,7 +220,7 @@
                 "Developed image processing logic to convert radar images to rainfall rates",
                 "Containerized and deployed for serverless operation",
                 "Automated scheduling and CI/CD with GitHub Actions and cron-job.org",
-                "Built minimal Flask frontend for monitoring"
+                "Built Flask frontend for monitoring"
             ],
             "url": "https://tonycerqui.blogspot.com/2025/04/bom-scraping-on-gcp.html"
         },
@@ -196,14 +233,13 @@
                 "Co-owned venture (33% via B&T Digital)",
                 "Defined product scope, features, and business direction",
                 "Acted as intermediary between technical and industry stakeholders",
-                "Structured profit-sharing and governance model",
                 "Oversaw hosting, support, and deployment strategies",
                 "Deployed lightweight web-based compliance validation tool",
                 "Digitized recordkeeping and data retrieval for well assessments",
                 "Enhanced accuracy and traceability in compliance reporting",
                 "Improved operational efficiency for industry users"
             ],
-            "url": ""
+            "url": "https://welltested.com.au/"
         }
     ]
 }
