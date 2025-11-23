@@ -13,6 +13,10 @@ _August 2023 – Present_
 - Preparation and delivery of technical training material.
 - Model driven business case analyses.
 - Rheological Laboratory work for process development.
+- Developed a streamlit application for self service slicing of aluminium smelter downtime data. hosted on Palantir foundry. Set up to update daily.
+- Developed a pipeline to quantify refinery production losses based on shift logs using Engineering informed llms.
+
+
 
 Minor:
 - Developed a fourier model of local tides.
@@ -20,4 +24,6 @@ Minor:
   - Clarification IKB
   - Precipitation IKB
   - Digestion IKB
+  - Refinery General IKB
   - Pump Training & Advanced Pump training
+- Debugged an exceldna c# excel plugin in visual studio.
