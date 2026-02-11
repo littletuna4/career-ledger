@@ -33,9 +33,7 @@ career-ledger/
 │
 ├── skills/                       # Skill development and reflections
 │
-├── education/                    # Academic history and achievements
-│
-└── resumes/                      # A private submodule, wouldn't you like to know what's in here...
+└── education/                    # Academic history and achievements
 ```
 
 Each section contains detailed records following a consistent format. File structure and content guidelines are in `.cursor/rules/global.mdc`.

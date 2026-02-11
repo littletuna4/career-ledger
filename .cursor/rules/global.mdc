@@ -1,9 +1,11 @@
 ---
-description: 
-globs: 
+description:
+globs:
 alwaysApply: true
 ---
+
 # Career Ledger - Structure and Content Guidelines
+
 ment provides the complete specifications for maintaining and contributing to the Career Ledger repository. These guidelines ensure consistency and comprehensiveness across all entries.
 
 ## File Structure Specification
@@ -39,20 +41,19 @@ career-ledger/
 │   ├── reflections.md            # Key lessons, mindset shifts, and patterns
 │   └── recognitions.md           # Awards, promotions, and public acknowledgments
 │
-├── education/                    # Academic history and related achievements
-│   ├── index.md                  # Summary of educational background
-│   ├── [institution]/            # Folder for each institution (e.g. university, training org)
-│   │   ├── index.md              # Overview of program(s), degrees, and context
-│   │   ├── courses.md            # Notable courses taken
-│   │   └── achievements.md       # Academic honors, scholarships, or major works
-│   └── certifications.md         # Standalone certifications or short courses
-│
-└── resumes/                      # Tailored resume variations
-    └── [dd.mm.yy.target]/        # Folder for each tailored version (e.g., company-name, role-type)
-        ├── description.txt       # Everything from the employer.
-        ├── resume.json           # Structured data in JSON Resume format
-        ├── resume.pdf            # Generated or manually created PDF version
-        └── tailoring-notes.md    # Documentation of specific tailoring decisions
+└── education/                    # Academic history and related achievements
+    ├── index.md                  # Summary of educational background
+    ├── [institution]/            # Folder for each institution (e.g. university, training org)
+    │   ├── index.md              # Overview of program(s), degrees, and context
+    │   ├── courses.md            # Notable courses taken
+    │   └── achievements.md       # Academic honors, scholarships, or major works
+    └── certifications.md         # Standalone certifications or short courses
+resumes/                      # Tailored resume variations
+└── [dd.mm.yy.target]/        # Folder for each tailored version (e.g., company-name, role-type)
+    ├── description.txt       # Everything from the employer.
+    ├── resume.json           # Structured data in JSON Resume format
+    ├── resume.pdf            # Generated or manually created PDF version
+    └── tailoring-notes.md    # Documentation of specific tailoring decisions - what licence has been taken to produce json.
 ```
 
 ## Content Guidelines
@@ -69,19 +70,21 @@ career-ledger/
 - Files and folders should all be in snake-case
 
 ### Resume JSON
+
 Resumes should be stylistically tailored for recruiters.
 Resumes should seek to find the intersection of recorded experience and the job requirements, but never imagine a item.
 
 resume.json should strictly adhere to this example schema. Only use the available fields
- ```json
- {
- "basics": {
+
+```json
+{
+  "basics": {
     "name": "Anthony Cerqui", // always use this name
     "label": "Modelling Engineer",
     "image": "",
     "email": "adpcerqui@gmail.com", // always use this email
     "phone": "+61457271181", // always use this mobile
-    "url": "https://tony-cerqui.webnode.com/", // use this
+    "url": "https://tony.is-a.dev/", // use this
     "summary": "A summary of John Doe…",
     "location": {
       //"address": "2712 Broadway St",
@@ -90,99 +93,108 @@ resume.json should strictly adhere to this example schema. Only use the availabl
       "countryCode": "AU",
       "region": "Queensland"
     },
-    "profiles": [{
-      "network": "LinkedIn", 
-      "username": "anthonycerqui",
-      "url": "https://www.linkedin.com/in/anthonycerqui/"
-    }]
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "anthonycerqui",
+        "url": "https://www.linkedin.com/in/anthonycerqui/"
+      }
+    ]
   },
-  "work": [{
-    "name": "Company",
-    "position": "President",
-    "url": "https://company.com",
-    "startDate": "2013-01-01",
-    "endDate": "2014-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Started the company"
-    ]
-  }],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
-  "education": [{
-    "institution": "University",
-    "url": "https://institution.com/",
-    "area": "Software Development",
-    "studyType": "Bachelor",
-    "startDate": "2011-01-01",
-    "endDate": "2013-01-01",
-    "score": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
-  "skills": [{
-    "name": "Web Development",
-    "level": "Master",
-    "keywords": [
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ]
-  }],
-  "languages": [{
-    "language": "English",
-    "fluency": "Native speaker"
-  }],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
-  }],
-  "projects": [{
-    "name": "Project",
-    "startDate": "2019-01-01",
-    "endDate": "2021-01-01",
-    "description": "Description...",
-    "highlights": [
-      "Won award at AIHacks 2016"
-    ],
-    "url": "https://project.com/"
-  }]
+  "work": [
+    {
+      "name": "Company",
+      "position": "President",
+      "url": "https://company.com",
+      "startDate": "2013-01-01",
+      "endDate": "2014-01-01",
+      "summary": "Description…",
+      "highlights": ["Started the company"]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University",
+      "url": "https://institution.com/",
+      "area": "Software Development",
+      "studyType": "Bachelor",
+      "startDate": "2011-01-01",
+      "endDate": "2013-01-01",
+      "score": "4.0",
+      "courses": ["DB1101 - Basic SQL"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": ["Won award at AIHacks 2016"],
+      "url": "https://project.com/"
+    }
+  ]
 }
 ```
 
@@ -236,21 +248,27 @@ resume.json should strictly adhere to this example schema. Only use the availabl
 # Project Name
 
 ## Summary
+
 Concise overview of what this project was and why it mattered.
 
 ## Context
+
 Where and when it happened, and what the setting was.
 
 ## Responsibilities
+
 What I personally did — technical, strategic, or interpersonal.
 
 ## Outcomes
+
 Results, metrics, and impact.
 
 ## Tools & Skills
+
 Technologies, methodologies, or soft skills applied.
 
 ## Reflections
+
 What I learned and would do differently.
 ```
 
@@ -264,24 +282,30 @@ What I learned and would do differently.
 **Industry**: [Industry]
 
 ## Roles
+
 - [Title 1]: [Date Range]
 - [Title 2]: [Date Range]
 
 ## Overview
+
 Brief description of the company and your general experience there.
 
 ## Key Responsibilities
+
 Summary of your main duties and areas of focus.
 
 ## Notable Projects
+
 - [Project 1](mdc:projects/project1.md): Brief description
 - [Project 2](mdc:projects/project2.md): Brief description
 
 ## Skills Applied/Developed
+
 - [Skill 1]
 - [Skill 2]
 
 ## Key Achievements
+
 - Achievement 1
 - Achievement 2
 ```
