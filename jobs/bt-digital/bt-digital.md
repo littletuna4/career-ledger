@@ -13,4 +13,5 @@ url: www.btdigital.com.au
 - Serve clients with complex engineering and IT requirements.
 
 ## Notable Projects
-- [Well Tested](../../projects/welltested/index.md): Web-based compliance validation tool for the gas industry, digitizing well compliance workflows and improving accuracy, traceability, and efficiency. 
+
+- [[../../projects/welltested/welltested|Well Tested]]: Web-based compliance validation tool for the gas industry, digitizing well compliance workflows and improving accuracy, traceability, and efficiency.

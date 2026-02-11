@@ -28,8 +28,5 @@ Independent secondary school. Completed Queensland Certificate of Education. Gra
 - Design and prototyping
 - Technical writing
 
-## Cross-References
-- [Education Overview](mdc:education/index.md)
-
 ## Reflections
 Foundation in STEM and design. Supported further tertiary study. 

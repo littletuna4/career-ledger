@@ -35,4 +35,4 @@ This project was initiated to support water modelling and flood risk estimation,
 
 ---
 
-[Technical Build Details](build.md) | [Lessons Learned](reflections.md)
+[[./build|Technical Build Details]] | [[./reflections|Lessons Learned]]
