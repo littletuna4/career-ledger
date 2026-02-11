@@ -85,7 +85,7 @@ resume.json should strictly adhere to this example schema. Only use the availabl
     "image": "",
     "email": "adpcerqui@gmail.com", // always use this email
     "phone": "+61457271181", // always use this mobile
-    "url": "https://tony-cerqui.webnode.com/", // use this
+    "url": "https://tony.is-a.dev/", // use this
     "summary": "A summary of John Doe…",
     "location": {
       //"address": "2712 Broadway St",
@@ -303,8 +303,13 @@ Summary of your main duties and areas of focus.
 
 ## Notable Projects
 
+<<<<<<< HEAD
+
 - [[PUBLIC/career-ledger/projects/welltested/welltested|Project 1]]: Brief description
-- [[PUBLIC/career-ledger/projects/another-project/another-project|Project 2]]: Brief description
+- # [[PUBLIC/career-ledger/projects/another-project/another-project|Project 2]]: Brief description
+- [Project 1](mdc:projects/project1.md): Brief description
+- [Project 2](mdc:projects/project2.md): Brief description
+  > > > > > > > b4230b2bd070dca0a619c8633a79889b206959ad
 
 ## Skills Applied/Developed
 

@@ -31,6 +31,7 @@ _August 2023 – Present_
 - Engaged by senior leadership to perform data driven investigation into process safety non-compliance.
 - Developed and published several streamlit applications.
 - Developed several foundry applications and data pipelines.
+- Rheological Laboratory work for process development.
 
 Minor:
 
