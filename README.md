@@ -1,7 +1,7 @@
 # Career Ledger
 
 Welcome to the Career Ledger, a structured and extensible markdown-based record of my professional journey, projects, and achievements. This repository is designed to be both human-readable but mostly ai-indexable, supporting comprehensive documentation while remaining neatly organized.
-This ideas has somewhat evolved into my pkm setup.
+This idea has somewhat evolved into my pkm setup.
 
 ## Purpose
 
@@ -44,10 +44,10 @@ Each section contains detailed records following a consistent format. File struc
 
 Browse through the sections that interest you most:
 
-- [[./jobs/jobs|Jobs]] - Employment history and work projects
-- [[./projects/projects|Projects]] - Independent and collaborative efforts
-- [[./skills/skills|Skills]] - Competencies and their development
-- [[./education/education|Education]] - Academic background and certifications
+- [[PUBLIC/career-ledger/jobs/jobs|Jobs]] – Employment history and work projects
+- [[PUBLIC/career-ledger/projects/projects|Projects]] – Independent and collaborative efforts
+- [[PUBLIC/career-ledger/skills/skills|Skills]] – Competencies and their development
+- [[PUBLIC/career-ledger/education/education|Education]] – Academic background and certifications
 
 ## Contact
 
