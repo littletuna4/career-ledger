@@ -25,15 +25,15 @@ The Career Ledger is organized into the following main sections:
 ```text
 career-ledger/
 │
-├── README.md                     # This file
+├── README.md                     # This file
 │
-├── jobs/                         # Employment-related content
+├── jobs/                         # Employment-related content
 │
-├── projects/                     # Independent or collaborative projects
+├── projects/                     # Independent and collaborative projects
 │
-├── skills/                       # Skill development and reflections
+├── skills/                       # Skill development and reflections
 │
-└── education/                    # Academic history and achievements
+└── education/                    # Academic history and achievements
 ```
 
 Each section contains detailed records following a consistent format. File structure and content guidelines are in `.cursor/rules/global.mdc`.
