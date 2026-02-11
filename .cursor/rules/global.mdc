@@ -6,7 +6,7 @@ alwaysApply: true
 
 # Career Ledger - Structure and Content Guidelines
 
-ment provides the complete specifications for maintaining and contributing to the Career Ledger repository. These guidelines ensure consistency and comprehensiveness across all entries.
+This document provides the complete specifications for maintaining and contributing to the Career Ledger repository. These guidelines ensure consistency and comprehensiveness across all entries.
 
 ## File Structure Specification
 
@@ -18,42 +18,43 @@ career-ledger/
 ├── README.md                     # Overview and introduction - STRICTLY META INFO ABOUT THE REPO
 │
 ├── jobs/                         # Main directory for employment-related content
-│   ├── [employer]/               # Folder for each employer
-│   │   ├── index.md              # Overview of my time at this employer
-│   │   ├── [project].md          # Direct project files (if simple or few)
-│   │   └── projects/             # Subfolder for detailed project-specific entries
-│   │       ├── [project]/        # Folder for a major project (optional)
-│   │       │   └── project.md    # Canonical project file
-│   │       └── [project].md      # Or just markdown file if no folder is needed
-│   │
-│   └── [employer].md             # (Optional) Single-page summary for the employer
-|
+│   ├── jobs.md                   # Section index: employment overview and entry point
+│   └── [employer]/               # Folder for each employer (snake-case)
+│       ├── [employer].md         # Overview of my time at this employer (e.g. bt-digital.md)
+│       ├── [project].md          # Direct project files (if simple or few)
+│       └── projects/             # Subfolder for detailed project-specific entries (optional)
+│           ├── [project]/        # Folder for a major project (optional)
+│           │   └── [project].md  # Canonical project file
+│           └── [project].md      # Or just markdown file if no folder is needed
+│
 ├── projects/                     # Independent or collaborative standalone projects
-│   ├── [project]/                # Folder for each project
-│   │   ├── index.md              # Overview, motivation, and outcomes
-│   │   ├── build.md              # Technical implementation details
-│   │   └── reflections.md        # Lessons learned, retrospectives
-│   └── [project].md              # Or single-file entries for simpler efforts
+│   ├── projects.md               # Section index: projects overview and entry point
+│   └── [project]/                # Folder for each project (snake-case)
+│       ├── [project].md         # Overview, motivation, and outcomes (e.g. welltested.md)
+│       ├── build.md              # Technical implementation details (optional)
+│       └── reflections.md        # Lessons learned, retrospectives (optional)
 │
 ├── skills/                       # Broader skill development and reflections
-│   ├── index.md                  # Overview of skills and their evolution
+│   ├── skills.md                 # Overview of skills and their evolution
 │   ├── timeline.md               # Chronological record of skill growth
 │   ├── reflections.md            # Key lessons, mindset shifts, and patterns
 │   └── recognitions.md           # Awards, promotions, and public acknowledgments
 │
-└── education/                    # Academic history and related achievements
-    ├── index.md                  # Summary of educational background
-    ├── [institution]/            # Folder for each institution (e.g. university, training org)
-    │   ├── index.md              # Overview of program(s), degrees, and context
-    │   ├── courses.md            # Notable courses taken
-    │   └── achievements.md       # Academic honors, scholarships, or major works
-    └── certifications.md         # Standalone certifications or short courses
-resumes/                      # Tailored resume variations
-└── [dd.mm.yy.target]/        # Folder for each tailored version (e.g., company-name, role-type)
-    ├── description.txt       # Everything from the employer.
-    ├── resume.json           # Structured data in JSON Resume format
-    ├── resume.pdf            # Generated or manually created PDF version
-    └── tailoring-notes.md    # Documentation of specific tailoring decisions - what licence has been taken to produce json.
+├── education/                    # Academic history and related achievements
+│   ├── education.md              # Summary of educational background
+│   ├── [institution]/            # Folder for each institution (snake-case)
+│   │   ├── [institution].md     # Overview of program(s), degrees, context (e.g. brisbane-boys-college.md)
+│   │   ├── copy-of-transcript.md # Or other docs (e.g. university transcript)
+│   │   ├── courses.md            # Notable courses taken (optional)
+│   │   └── achievements.md      # Academic honors, scholarships (optional)
+│   └── certifications.md        # Standalone certifications or short courses
+│
+└── resumes/                      # Tailored resume variations
+    └── [yyyy-mm-dd.target]/        # Folder for each tailored version (e.g., company-name, role-type)
+        ├── description.txt       # Everything from the employer.
+        ├── resume.json           # Structured data in JSON Resume format
+        ├── resume.pdf            # Generated or manually created PDF version
+        └── tailoring-notes.md    # Documentation of specific tailoring decisions
 ```
 
 ## Content Guidelines
@@ -202,7 +203,8 @@ resume.json should strictly adhere to this example schema. Only use the availabl
 
 #### Jobs Section
 
-- **index.md** in each employer folder should contain:
+- **jobs.md** is the section index; link to it from README and other section indexes.
+- **[employer].md** in each employer folder (e.g. bt-digital/bt-digital.md) should contain:
   - Employment duration
   - Official job titles and role evolutions
   - Department/team placement
@@ -210,7 +212,7 @@ resume.json should strictly adhere to this example schema. Only use the availabl
   - Key achievements summary
   - Links to detailed project entries
 
-- **[project].md** files should include:
+- **[project].md** files (under an employer or in employer/projects/) should include:
   - Project overview and business context
   - Your specific responsibilities and contributions
   - Technologies, methodologies, and frameworks used
@@ -220,23 +222,28 @@ resume.json should strictly adhere to this example schema. Only use the availabl
 
 #### Projects Section
 
-- **index.md** for project folders should provide:
+- **projects.md** is the section index; link to it from README and other section indexes.
+- **[project].md** for each project folder (e.g. welltested/welltested.md) should provide:
   - Project scope and objectives
   - Your motivation for undertaking it
   - Timeline and development process
   - Results and reception
   - Links to demos, repositories, or live instances if available
+- Use **build.md** and **reflections.md** in the same folder when the project has technical build notes or lessons learned.
 
 #### Skills Section
 
+- **skills.md** is the section index (not index.md).
 - Group related skills together in meaningful categories
-- Document skill progression over time
+- Document skill progression over time in **timeline.md**, **reflections.md**, **recognitions.md**
 - Connect skills to specific projects or roles where they were applied or developed
 - Include both technical and soft skills
 
 #### Education Section
 
-- Document formal degrees, certifications, and significant training programs
+- **education.md** is the section index (not index.md).
+- **[institution].md** per institution (e.g. brisbane-boys-college.md) holds overview; add transcripts or other docs as needed (e.g. copy-of-transcript.md).
+- Document formal degrees, certifications (in **certifications.md**), and significant training programs
 - Include relevant coursework, major projects, and academic achievements
 - Note particularly influential instructors or mentors
 
@@ -296,8 +303,16 @@ Summary of your main duties and areas of focus.
 
 ## Notable Projects
 
+# <<<<<<< HEAD
+
+<<<<<<< HEAD
+
+- [[PUBLIC/career-ledger/projects/welltested/welltested|Project 1]]: Brief description
+- # [[PUBLIC/career-ledger/projects/another-project/another-project|Project 2]]: Brief description
+  > > > > > > > a31cbea4e51d2109a6ed2a3a4d8d79be3dc86b81
 - [Project 1](mdc:projects/project1.md): Brief description
 - [Project 2](mdc:projects/project2.md): Brief description
+  > > > > > > > b4230b2bd070dca0a619c8633a79889b206959ad
 
 ## Skills Applied/Developed
 
@@ -315,8 +330,8 @@ Summary of your main duties and areas of focus.
 - When making file changes, always check for cross references and keep them up to date.
 - Add new entries promptly after completing projects or changing roles
 - Maintain consistent formatting throughout the repository
-- Create index files for new sections only as they grow.
-- Ensure all links remain functional (they should be relative ie "../../..." (not using mdc))
+- Section entry points are jobs.md, projects.md, education.md, skills.md (not index.md).
+- Use Obsidian wiki-links for internal cross-references: `[[PUBLIC/career-ledger/path/to/note|display text]]` from vault root so links resolve in the main vault.
 
 ## Integration Guidelines
 
