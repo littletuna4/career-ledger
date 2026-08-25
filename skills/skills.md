@@ -9,4 +9,10 @@ This section summarizes my core skills and their development over time.
 - Tooling and automation for engineering software
 - Project & commissioning documentation
 - Artificial Intelligence applications in process engineering
-- Web development (Next.js) 
+- Web development (Next.js)
+- Rust, Python, Typescript
+- Cloud
+  - GCP, AWS, and reluctantly az
+- Linear programming
+- Palantir foundry development
+- Power Bi

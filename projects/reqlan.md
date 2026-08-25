@@ -1,0 +1,2 @@
+- https://reqlan.com
+- statically analyseable data format for tracking semantic requirements in complex technical projects.
